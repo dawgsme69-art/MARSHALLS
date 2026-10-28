@@ -42,7 +42,7 @@ const HeroBranding = () => {
     >
       <div className="relative inline-block animate-float will-change-transform">
             {/* Main Card Image */}
-            <div className="relative z-10 w-[240px] sm:w-[320px] mx-auto transition-transform duration-500 group-hover:scale-105">
+            <div className="relative z-10 w-[230px] sm:w-[310px] mx-auto transition-transform duration-500 group-hover:scale-105">
               <img 
                 src="https://i.imgur.com/jDSPdyc.jpeg" 
                 alt="Marshalls $500 Gift Card" 
