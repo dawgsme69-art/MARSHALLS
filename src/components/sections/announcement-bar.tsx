@@ -31,7 +31,7 @@ const AnnouncementBar = () => {
   };
 
   return (
-    <div className="sticky top-0 z-50 w-full bg-[#fc620c] border-b border-[#fc620c]/30 py-1.5 px-4 shadow-[0_4px_20px_rgba(0,0,0,0.3)] backdrop-blur-md">
+    <div className="sticky top-0 z-50 w-full bg-[#0023cb] border-b border-[#0023cb]/30 py-1.5 px-4 shadow-[0_4px_20px_rgba(0,0,0,0.3)] backdrop-blur-md">
       {/* Sparkle Icons Overlay */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden opacity-20">
         <Sparkles 
@@ -58,18 +58,18 @@ const AnnouncementBar = () => {
                 <span className="text-[#ffffff] tabular-nums font-black">
                   {formatTime(timeLeft)}
                 </span>{" "}
-                minutes left to unlock your Ulta Beauty reward
+                minutes left to unlock your Marshalls reward
               </p>
             </div>
         </div>
 
         {/* Bottom Row: Subtext with decorative lines */}
         <div className="flex items-center gap-2 mt-0.5">
-          <div className="h-[1px] w-4 bg-[#ffffff]"></div>
+          <div className="h-[1px] w-4 bg-[#0023cb]"></div>
           <p className="text-[#ffffff] text-[9px] uppercase tracking-[0.15em] font-bold">
             Complete the steps before access expires
           </p>
-          <div className="h-[1px] w-4 bg-[#ffffff]"></div>
+          <div className="h-[1px] w-4 bg-[#0023cb]"></div>
         </div>
       </div>
 
